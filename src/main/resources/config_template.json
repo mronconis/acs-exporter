@@ -1,0 +1,14 @@
+{
+    "acs": {
+        "url": "<url>",
+        "credentials": "<credentials>"
+    },
+    "clusters": [
+        {
+            "id": "<cluster_id>",
+            "name": "<name>",
+            "env": "<environment>",
+            "url": "<url>"
+        }
+    ]
+}

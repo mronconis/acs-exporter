@@ -1,0 +1,28 @@
+{
+  "epoch": 0,
+  "nodes": [
+    {
+      "entity": {
+        "type": "DEPLOYMENT",
+        "id": "2f5f6fdc-6a19-11eb-b7e5-000d3a2ec399",
+        "deployment": {
+          "name": "redis",
+          "namespace": "foo",
+          "cluster": "cluster1",
+          "listenPorts": [
+            {
+              "port": 6379,
+              "l4protocol": "L4_PROTOCOL_TCP"
+            }
+          ]
+        }
+      },
+      "internetAccess": false,
+      "policyIds": [],
+      "nonIsolatedIngress": false,
+      "nonIsolatedEgress": false,
+      "queryMatch": true,
+      "outEdges": {}
+    },
+  ]
+}
